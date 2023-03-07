@@ -1,4 +1,5 @@
-export function Movies ({ movies }) {
+
+function FoundMovies ({ movies }) {
   return (
     <ul className='movies'>
       {
@@ -11,5 +12,17 @@ export function Movies ({ movies }) {
         ))
         }
     </ul>
+  )
+}
+
+function NotFound () {
+  return <p>No se encontraron peliculas con ese nombre</p>
+}
+export function Movies ({ movies }) {
+  const hasMovies = movies?.length > 0
+  return (
+    hasMovies
+      ? <FoundMovies movies={movies} />
+      : <NotFound />
   )
 }

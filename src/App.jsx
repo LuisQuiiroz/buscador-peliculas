@@ -38,7 +38,7 @@ function App () {
       </header>
       <main>
         {loading && 'Cargando...'}
-        {movies.length > 0
+        {search !== ''
           ? <Movies movies={movies} />
           : <p>Aquí se mostraran las peliculas</p>}
       </main>
