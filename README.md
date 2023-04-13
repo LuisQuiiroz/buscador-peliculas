@@ -1,6 +1,6 @@
  ## App
  
- https://github.com/LuisQuiiroz/shopping-cart
+ https://luisquiiroz.github.io/buscador-peliculas/
  
  # buscador-peliculas
   
