@@ -1,6 +1,6 @@
  ## App
-
- <a href="https://luisquiiroz.github.io/buscador-peliculas/" target="_blank">Open in new tab</a>
+ 
+https://luisquiiroz.github.io/buscador-peliculas/
  
  # buscador-peliculas
   
